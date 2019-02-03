@@ -1,0 +1,18 @@
+{
+	"name": "aubreypwd/wpkickstart-components",
+	"description": "Set of components for wpkickstart frameworks.",
+	"homepage": "https://github.com/aubreypwd/wpkickstart-components",
+	"license": "GPL-2.0+",
+	"support": {
+		"issues": "https://github.com/aubreypwd/wpkickstart-components/issues",
+		"source": "https://github.com/aubreypwd/wpkickstart-components"
+	},
+	"require": {
+		"composer/installers": "~1.0"
+	},
+	"extra": {
+		"installer-paths": {
+			"components/{$name}": ["aubreypwd/wpkickstart-components"]
+		}
+	}
+}
