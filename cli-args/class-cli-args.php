@@ -55,10 +55,7 @@ class CLI_Args {
 	 */
 	public function merge_args( array $args = [], array $assoc_args = [] ) {
 		return array_merge( $assoc_args, array_map( function() {
-
-			// E.g. if I do wp migrate sleep we will get sleep set to true like in $assoc_args.
 			return true;
-
 		}, array_flip( $args ) ) );
 	}
 
@@ -97,7 +94,7 @@ class CLI_Args {
 		}
 
 		if ( ! isset( $this->cli_args[ $arg ] ) ) {
-			\WP_CLI::error( "--{$arg} was not set, please run `wp help migrate subsite`." );
+			\WP_CLI::error( "--{$arg} was not set, please run `wp help`." );
 		}
 
 		return $this->cli_args[ $arg ];
