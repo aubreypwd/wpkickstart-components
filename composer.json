@@ -13,7 +13,7 @@
 	},
 	"extra": {
 		"installer-paths": {
-			"components/{$name}": ["aubreypwd/wpkickstart-components"]
+			"components/{$name}": ["aubreypwd/wpkickstart-component"]
 		}
 	}
 }
