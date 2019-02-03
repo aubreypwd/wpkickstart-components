@@ -4,6 +4,8 @@
  *
  * @since 1.0.0
  * @package  WebDevStudios\MigrateSubsite
+ *
+ * @php 5.6.0
  */
 
 namespace aubreypwd\WP_KickStart_Components;
