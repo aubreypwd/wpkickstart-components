@@ -7,7 +7,6 @@
 		"issues": "https://github.com/aubreypwd/wpkickstart-components/issues",
 		"source": "https://github.com/aubreypwd/wpkickstart-components"
 	},
-	"type": "wpkickstart-component",
 	"require": {
 		"composer/installers": "*"
 	}
