@@ -7,7 +7,7 @@
 		"issues": "https://github.com/aubreypwd/wpkickstart-components/issues",
 		"source": "https://github.com/aubreypwd/wpkickstart-components"
 	},
-	"type": "wpkickstart-component",
+	"type": "wpkickstart-components",
 	"require": {
 		"composer/installers": "*",
 		"oomphinc/composer-installers-extender": "*"
